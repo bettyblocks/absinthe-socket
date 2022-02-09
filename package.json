@@ -39,7 +39,7 @@
     "globby": "8.0.1",
     "husky": "1.2.0",
     "lerna": "3.6.0",
-    "lint-staged": "8.1.0",
+    "lint-staged": "12.3.3",
     "pascal-case": "2.0.1",
     "pkg-to-readme": "1.1.0",
     "prettier": "1.15.3",
@@ -49,6 +49,6 @@
     "rollup-plugin-node-resolve": "4.0.0"
   },
   "dependencies": {
-    "phoenix": "1.4.1"
+    "phoenix": "^1.4.1"
   }
 }
