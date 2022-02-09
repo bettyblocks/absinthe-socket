@@ -60,7 +60,7 @@ const cancelActive = (absintheSocket, notifier) =>
  * unsubscribing in case it holds a subscription request
  *
  * @example
- * import * as withAbsintheSocket from "@absinthe-betty/socket";
+ * import * as withAbsintheSocket from "@betty-blocks/socket";
  *
  * withAbsintheSocket.cancel(absintheSocket, notifier);
  */

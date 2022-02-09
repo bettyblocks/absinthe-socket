@@ -70,7 +70,7 @@ const absintheChannelName = "__absinthe__:control";
  * Creates an Absinthe Socket using the given Phoenix Socket instance
  *
  * @example
- * import * as withAbsintheSocket from "@absinthe-betty/socket";
+ * import * as withAbsintheSocket from "@betty-blocks/socket";
  * import {Socket as PhoenixSocket} from "phoenix";
 
  * const absintheSocket = withAbsintheSocket.create(

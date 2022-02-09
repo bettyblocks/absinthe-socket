@@ -142,7 +142,7 @@ unsubscribing in case it holds a subscription request
 #### Examples
 
 ```javascript
-import * as withAbsintheSocket from "@absinthe-betty/socket";
+import * as withAbsintheSocket from "@betty-blocks/socket";
 
 withAbsintheSocket.cancel(absintheSocket, notifier);
 ```
@@ -160,7 +160,7 @@ Creates an Absinthe Socket using the given Phoenix Socket instance
 #### Examples
 
 ```javascript
-import * as withAbsintheSocket from "@absinthe-betty/socket";
+import * as withAbsintheSocket from "@betty-blocks/socket";
 import {Socket as PhoenixSocket} from "phoenix";
 
 const absintheSocket = withAbsintheSocket.create(
@@ -183,7 +183,7 @@ Observes given notifier using the provided observer
 #### Examples
 
 ```javascript
-import * as withAbsintheSocket from "@absinthe-betty/socket"
+import * as withAbsintheSocket from "@betty-blocks/socket"
 
 const logEvent = eventName => (...args) => console.log(eventName, ...args);
 
@@ -208,7 +208,7 @@ Sends given request and returns an object (notifier) to track its progress
 #### Examples
 
 ```javascript
-import * as withAbsintheSocket from "@absinthe-betty/socket";
+import * as withAbsintheSocket from "@betty-blocks/socket";
 
 const operation = `
   subscription userSubscription($userId: ID!) {
@@ -247,7 +247,7 @@ Creates an Observable that will follow the given notifier
 #### Examples
 
 ```javascript
-import * as withAbsintheSocket from "@absinthe-betty/socket";
+import * as withAbsintheSocket from "@betty-blocks/socket";
 
 const unobserveOrCancelIfNeeded = (absintheSocket, notifier, observer) => {
   if (notifier && observer) {
@@ -279,7 +279,7 @@ Detaches observer from notifier
 #### Examples
 
 ```javascript
-import * as withAbsintheSocket from "@absinthe-betty/socket";
+import * as withAbsintheSocket from "@betty-blocks/socket";
 
 withAbsintheSocket.unobserve(absintheSocket, notifier, observer);
 ```
@@ -300,7 +300,7 @@ detaches given observer from notifier otherwise
 #### Examples
 
 ```javascript
-import * as withAbsintheSocket from "@absinthe-betty/socket";
+import * as withAbsintheSocket from "@betty-blocks/socket";
 
 withAbsintheSocket.unobserve(absintheSocket, notifier, observer);
 ```

@@ -35,7 +35,7 @@
 ```javascript
 // @flow
 
-import * as AbsintheSocket from "@absinthe-betty/socket";
+import * as AbsintheSocket from "@betty-blocks/socket";
 import {createAbsintheSocketLink} from "@absinthe/socket-apollo-link";
 import {Socket as PhoenixSocket} from "phoenix";
 

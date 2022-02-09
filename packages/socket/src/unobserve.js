@@ -17,7 +17,7 @@ const ensureHasActiveObserver = (notifier, observer) => {
  * Detaches observer from notifier
  *
  * @example
- * import * as withAbsintheSocket from "@absinthe-betty/socket";
+ * import * as withAbsintheSocket from "@betty-blocks/socket";
  *
  * withAbsintheSocket.unobserve(absintheSocket, notifier, observer);
  */

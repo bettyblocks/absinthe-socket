@@ -1,5 +1,5 @@
 {
-  "name": "@absinthe-betty/socket-relay",
+  "name": "@betty-blocks/socket-relay",
   "version": "0.2.1",
   "description": "Absinthe Socket Relay",
   "module": "dist/index.js",
@@ -30,7 +30,7 @@
     "utils"
   ],
   "dependencies": {
-    "@absinthe-betty/socket": "0.3.0",
+    "@betty-blocks/socket": "0.3.0",
     "@babel/runtime": "^7.2.0",
     "@jumpn/utils-graphql": "0.6.0",
     "@jumpn/utils-promise": "0.3.1",

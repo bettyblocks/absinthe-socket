@@ -53,7 +53,7 @@ const createObserver = (notifier, handlers, observableObserver) => ({
  * @return {Observable}
  *
  * @example
- * import * as withAbsintheSocket from "@absinthe-betty/socket";
+ * import * as withAbsintheSocket from "@betty-blocks/socket";
  *
  * const unobserveOrCancelIfNeeded = (absintheSocket, notifier, observer) => {
  *   if (notifier && observer) {
