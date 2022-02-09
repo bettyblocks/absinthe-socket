@@ -1,6 +1,6 @@
 {
   "name": "@betty-blocks/socket-apollo-link",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Absinthe Socket Apollo Link",
   "module": "dist/index.js",
   "main": "compat/cjs/index.js",
@@ -32,7 +32,7 @@
     "utils"
   ],
   "dependencies": {
-    "@betty-blocks/socket": "0.4.0",
+    "@betty-blocks/socket": "0.4.1",
     "@apollo/client": "^3.3.19",
     "@babel/runtime": "^7.17.2",
     "core-js": "^3.6.5",

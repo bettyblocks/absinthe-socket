@@ -1,6 +1,6 @@
 // @flow
 
-import {hasIn} from "@jumpn/utils-composite";
+import {hasIn} from "@betty-blocks/utils-composite";
 
 import type {Notifier} from "./types";
 

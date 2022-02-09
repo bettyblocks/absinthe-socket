@@ -1,6 +1,6 @@
 // @flow
 
-import {replace as arrayReplace} from "@jumpn/utils-array";
+import {replace as arrayReplace} from "@betty-blocks/utils-array";
 
 import findIndex from "./findIndex";
 

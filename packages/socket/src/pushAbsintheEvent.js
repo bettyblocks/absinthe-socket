@@ -1,6 +1,6 @@
 // @flow
 
-import {map} from "@jumpn/utils-composite";
+import {map} from "@betty-blocks/utils-composite";
 
 import type {GqlRequest} from "@betty-blocks/utils-graphql/compat/cjs/types";
 

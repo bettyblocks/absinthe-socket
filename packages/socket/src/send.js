@@ -1,6 +1,6 @@
 // @flow
 
-import {append} from "@jumpn/utils-array";
+import {append} from "@betty-blocks/utils-array";
 
 import type {GqlRequest} from "@betty-blocks/utils-graphql/compat/cjs/types";
 

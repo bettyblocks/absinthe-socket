@@ -30,10 +30,10 @@
     "utils"
   ],
   "dependencies": {
-    "@betty-blocks/socket": "0.4.0",
+    "@betty-blocks/socket": "0.4.1",
     "@babel/runtime": "^7.17.2",
     "@betty-blocks/utils-graphql": "0.6.0",
-    "@jumpn/utils-promise": "0.3.1",
+    "@betty-blocks/utils-promise": "0.4.0",
     "core-js": "^3.6.5",
     "react-relay": "1.7.0"
   },

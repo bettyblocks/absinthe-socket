@@ -1197,6 +1197,26 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@betty-blocks/utils-array@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@betty-blocks/utils-array/-/utils-array-0.4.0.tgz#41a5320463fb3de6e2435e6d3703966eb2039899"
+  integrity sha512-3HThKb1bZf6PXTsmfAwoY0ydyqMsOMT8a8+BCdPIuvtnUrD+ZIWndcLaNkwzzMSABYdb3WuiTdXrWcjJjgEsnQ==
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+    core-js "^3.6.5"
+    flow-static-land "0.2.8"
+
+"@betty-blocks/utils-composite@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@betty-blocks/utils-composite/-/utils-composite-0.9.0.tgz#e82127d9d54e3743ae626943fb751c77113efd51"
+  integrity sha512-675Fr/osfbU6DjkGWFbLb8tbXueAw6LXa7r6pbBfSOzcJroxjDvVC+osvO7qFC1USRbLM15LVaeKB37RE9NtmA==
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+    "@betty-blocks/utils-array" "0.4.0"
+    core-js "^3.6.5"
+    fast-deep-equal "1.0.0"
+    flow-static-land "0.2.8"
+
 "@betty-blocks/utils-graphql@0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@betty-blocks/utils-graphql/-/utils-graphql-0.6.0.tgz#23ff37673fe3f98125c2325dc84943738b94235d"
@@ -1213,6 +1233,16 @@
     "@babel/runtime" "^7.17.2"
     core-js "^3.6.5"
     graphql "^15.8.0"
+
+"@betty-blocks/utils-promise@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@betty-blocks/utils-promise/-/utils-promise-0.4.0.tgz#0c9a7d22944a182b6baf6df1a04b336c70bceb80"
+  integrity sha512-9dUn4rvAW0CiidyEImDK2uOwupTeGlDPJfbqgf12IdQxppjTYSkB2tdpveiya8nCrI8wFZ+obJWMxSXUMD3SAw==
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+    "@betty-blocks/utils-composite" "0.9.0"
+    core-js "^3.6.5"
+    flow-static-land "0.2.8"
 
 "@commitlint/cli@7.2.1":
   version "7.2.1"
@@ -1392,46 +1422,6 @@
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.1.1.tgz#076d78ce99822258cf813ecc1e7fa460fa74d052"
   integrity sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg==
-
-"@jumpn/utils-array@0.3.4":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@jumpn/utils-array/-/utils-array-0.3.4.tgz#fb4310120108f659dab54075ef93abc56137de5e"
-  integrity sha1-+0MQEgEI9lnatUB175OrxWE33l4=
-  dependencies:
-    babel-polyfill "6.26.0"
-    babel-runtime "6.26.0"
-    flow-static-land "0.2.7"
-
-"@jumpn/utils-composite@0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@jumpn/utils-composite/-/utils-composite-0.4.2.tgz#16ba506fcfd428ed7af7e929013dd7a80657d753"
-  integrity sha512-aDo9OyzzG62J1xylYEWRSjn6bwTjy1agEVAae1I2lZqMPp1QsLHbDoCqjfil40TpiyyYuCyZ8Zl63ByC4zIF7g==
-  dependencies:
-    "@jumpn/utils-array" "0.3.4"
-    babel-polyfill "6.26.0"
-    babel-runtime "6.26.0"
-    flow-static-land "0.2.7"
-
-"@jumpn/utils-composite@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@jumpn/utils-composite/-/utils-composite-0.7.0.tgz#1979db00dd9465ebc33826adab17f1dd48e6fd0c"
-  integrity sha512-kamRVYJLNvjMrnKKeu2RSFQHLUO/IYFo05gLI7GQcCk063mJzsjCCfRycCievIBI+5Sg8C7A5gwRYxkBA5jY8w==
-  dependencies:
-    "@jumpn/utils-array" "0.3.4"
-    babel-polyfill "6.26.0"
-    babel-runtime "6.26.0"
-    fast-deep-equal "1.0.0"
-    flow-static-land "0.2.8"
-
-"@jumpn/utils-promise@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@jumpn/utils-promise/-/utils-promise-0.3.1.tgz#8bea81d4c26043488ac78b39e95fc09f0997ec75"
-  integrity sha512-JiaAXtcdm4PlBLToV55g0y9rFgXxoTzxW8WsKeV5T5gcVoDCA7rmISZxGjA3mv28QfdctnJO0HddAuL+gORvTQ==
-  dependencies:
-    "@jumpn/utils-composite" "0.4.2"
-    babel-polyfill "6.26.0"
-    babel-runtime "6.26.0"
-    flow-static-land "0.2.7"
 
 "@lerna/add@^3.6.0":
   version "3.6.0"
@@ -4564,11 +4554,6 @@ flow-copy-source@2.0.2:
     glob "^7.0.0"
     kefir "^3.7.3"
     yargs "^12.0.1"
-
-flow-static-land@0.2.7:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/flow-static-land/-/flow-static-land-0.2.7.tgz#937f9dcb2780889a609155e5d1a55a993bc2ffb3"
-  integrity sha1-k3+dyyeAiJpgkVXl0aVamTvC/7M=
 
 flow-static-land@0.2.8, flow-static-land@^0.2.8:
   version "0.2.8"
