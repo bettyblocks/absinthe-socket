@@ -4,7 +4,7 @@ export type {
   GqlOperationType,
   GqlRequest,
   GqlResponse
-} from "@jumpn/utils-graphql/compat/cjs/types";
+} from "@betty-blocks/utils-graphql/compat/cjs/types";
 
 export {default as cancel} from "./cancel";
 export {default as create} from "./create";

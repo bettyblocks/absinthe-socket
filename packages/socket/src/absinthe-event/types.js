@@ -1,6 +1,6 @@
 // @flow
 
-import type {GqlRequestCompat} from "@jumpn/utils-graphql/compat/cjs/types";
+import type {GqlRequestCompat} from "@betty-blocks/utils-graphql/compat/cjs/types";
 
 import absintheEventNames from "./absintheEventNames";
 

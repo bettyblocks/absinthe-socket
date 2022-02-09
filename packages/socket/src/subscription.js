@@ -1,11 +1,11 @@
 // @flow
 
-import {errorsToString as gqlErrorsToString} from "@jumpn/utils-graphql";
+import {errorsToString as gqlErrorsToString} from "@betty-blocks/utils-graphql";
 
 import type {
   GqlError,
   GqlResponse
-} from "@jumpn/utils-graphql/compat/cjs/types";
+} from "@betty-blocks/utils-graphql/compat/cjs/types";
 import type {Message} from "phoenix";
 
 import abortNotifier from "./abortNotifier";

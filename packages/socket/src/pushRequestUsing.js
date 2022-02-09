@@ -1,6 +1,6 @@
 // @flow
 
-import {requestToCompat} from "@jumpn/utils-graphql";
+import {requestToCompat} from "@betty-blocks/utils-graphql";
 
 import abortNotifier from "./abortNotifier";
 import notifierNotifyActive from "./notifier/notifyActive";

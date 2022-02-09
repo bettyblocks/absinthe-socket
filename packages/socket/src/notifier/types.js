@@ -3,7 +3,7 @@
 import type {
   GqlOperationType,
   GqlRequest
-} from "@jumpn/utils-graphql/compat/cjs/types";
+} from "@betty-blocks/utils-graphql/compat/cjs/types";
 
 import eventNames from "./event/eventNames";
 

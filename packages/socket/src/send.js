@@ -2,7 +2,7 @@
 
 import {append} from "@jumpn/utils-array";
 
-import type {GqlRequest} from "@jumpn/utils-graphql/compat/cjs/types";
+import type {GqlRequest} from "@betty-blocks/utils-graphql/compat/cjs/types";
 
 import joinChannel from "./joinChannel";
 import notifierCreate from "./notifier/create";

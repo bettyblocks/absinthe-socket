@@ -1,6 +1,6 @@
 {
   "name": "@betty-blocks/socket",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Absinthe Socket",
   "module": "dist/index.js",
   "main": "compat/cjs/index.js",
@@ -29,10 +29,10 @@
     "utils"
   ],
   "dependencies": {
-    "@babel/runtime": "^7.2.0",
+    "@babel/runtime": "^7.17.2",
     "@jumpn/utils-array": "0.3.4",
     "@jumpn/utils-composite": "0.7.0",
-    "@jumpn/utils-graphql": "0.6.0",
+    "@betty-blocks/utils-graphql": "0.7.0",
     "core-js": "^3.6.5",
     "zen-observable": "^0.8.11"
   },

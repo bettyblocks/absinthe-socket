@@ -1,7 +1,7 @@
 // @flow
 
 import * as withAbsintheSocket from "@betty-blocks/socket";
-import {requestFromCompat} from "@jumpn/utils-graphql";
+import {requestFromCompat} from "@betty-blocks/utils-graphql";
 import {Socket as PhoenixSocket} from "phoenix";
 
 import type {
@@ -9,7 +9,7 @@ import type {
   GqlRequest,
   SubscriptionPayload
 } from "@betty-blocks/socket";
-import type {GqlRequestCompat} from "@jumpn/utils-graphql/dist/types";
+import type {GqlRequestCompat} from "@betty-blocks/utils-graphql/dist/types";
 import type {SocketOpts} from "phoenix";
 
 type SubscriptionCallback = (

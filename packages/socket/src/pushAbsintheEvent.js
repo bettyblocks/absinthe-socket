@@ -2,7 +2,7 @@
 
 import {map} from "@jumpn/utils-composite";
 
-import type {GqlRequest} from "@jumpn/utils-graphql/compat/cjs/types";
+import type {GqlRequest} from "@betty-blocks/utils-graphql/compat/cjs/types";
 
 import handlePush from "./handlePush";
 import notifierFind from "./notifier/find";

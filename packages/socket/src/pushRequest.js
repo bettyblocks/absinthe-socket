@@ -1,6 +1,6 @@
 // @flow
 
-import type {GqlResponse} from "@jumpn/utils-graphql/compat/cjs/types";
+import type {GqlResponse} from "@betty-blocks/utils-graphql/compat/cjs/types";
 
 import notifierNotifyResultEvent from "./notifier/notifyResultEvent";
 import notifierNotifyStartEvent from "./notifier/notifyStartEvent";

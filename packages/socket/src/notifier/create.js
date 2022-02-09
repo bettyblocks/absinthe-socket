@@ -1,8 +1,8 @@
 // @flow
 
-import {getOperationType} from "@jumpn/utils-graphql";
+import {getOperationType} from "@betty-blocks/utils-graphql";
 
-import type {GqlRequest} from "@jumpn/utils-graphql/compat/cjs/types";
+import type {GqlRequest} from "@betty-blocks/utils-graphql/compat/cjs/types";
 
 import requestStatuses from "./requestStatuses";
 

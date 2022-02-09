@@ -56,19 +56,19 @@ $ yarn add phoenix <%= name %>
 ```flowtype
 type RequestStatus = "canceled" | "canceling" | "pending" | "sent" | "sending";
 
-// from @jumpn/utils-graphql
+// from @betty-blocks/utils-graphql
 type GqlRequest<Variables: void | Object = void> = {
   operation: string,
   variables?: Variables
 };
 
-// from @jumpn/utils-graphql
+// from @betty-blocks/utils-graphql
 type GqlResponse<Data> = {
   data?: Data,
   errors?: Array<GqlError>
 };
 
-// from @jumpn/utils-graphql
+// from @betty-blocks/utils-graphql
 type GqlOperationType = "mutation" | "query" | "subscription";
 
 type Observer<Result, Variables: void | Object = void> = {|
