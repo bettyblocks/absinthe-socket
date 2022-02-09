@@ -1,11 +1,11 @@
 // @flow
 
 import {ApolloLink} from "@apollo/client/core";
-import {send, toObservable, unobserveOrCancel} from "@absinthe/socket";
+import {send, toObservable, unobserveOrCancel} from "@absinthe-betty/socket";
 import {compose} from "flow-static-land/lib/Fun";
 import {print} from "graphql";
 
-import type {AbsintheSocket, GqlRequest, Observer} from "@absinthe/socket";
+import type {AbsintheSocket, GqlRequest, Observer} from "@absinthe-betty/socket";
 import type {DocumentNode} from "graphql/language/ast";
 
 type ApolloOperation<Variables> = {|

@@ -1,6 +1,6 @@
 // @flow
 
-import * as withAbsintheSocket from "@absinthe/socket";
+import * as withAbsintheSocket from "@absinthe-betty/socket";
 import {requestFromCompat} from "@jumpn/utils-graphql";
 import {Socket as PhoenixSocket} from "phoenix";
 
@@ -8,7 +8,7 @@ import type {
   AbsintheSocket,
   GqlRequest,
   SubscriptionPayload
-} from "@absinthe/socket";
+} from "@absinthe-betty/socket";
 import type {GqlRequestCompat} from "@jumpn/utils-graphql/dist/types";
 import type {SocketOpts} from "phoenix";
 

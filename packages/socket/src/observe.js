@@ -10,7 +10,7 @@ import type {Notifier, Observer} from "./notifier/types";
  * Observes given notifier using the provided observer
  *
  * @example
- * import * as withAbsintheSocket from "@absinthe/socket"
+ * import * as withAbsintheSocket from "@absinthe-betty/socket"
  *
  * const logEvent = eventName => (...args) => console.log(eventName, ...args);
  *

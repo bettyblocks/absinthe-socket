@@ -16,7 +16,7 @@ const doUnobserveOrCancel = (absintheSocket, notifier, observer) =>
  * detaches given observer from notifier otherwise
  *
  * @example
- * import * as withAbsintheSocket from "@absinthe/socket";
+ * import * as withAbsintheSocket from "@absinthe-betty/socket";
  *
  * withAbsintheSocket.unobserve(absintheSocket, notifier, observer);
  */

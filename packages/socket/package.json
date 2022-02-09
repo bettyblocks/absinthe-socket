@@ -1,5 +1,5 @@
 {
-  "name": "@absinthe/socket-betty",
+  "name": "@absinthe-betty/socket",
   "version": "0.3.0",
   "description": "Absinthe Socket",
   "module": "dist/index.js",
